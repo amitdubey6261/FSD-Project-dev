@@ -1,5 +1,6 @@
 var socket;
 
+//Preload function for the P5 js project
 function setup() {
   createCanvas(window.screen.availWidth, window.screen.availHeight);
   background(0);
