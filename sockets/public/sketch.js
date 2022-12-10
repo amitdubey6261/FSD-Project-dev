@@ -26,6 +26,7 @@ function mouseDragged() {
   sendmouse(mouseX,mouseY);
 }
 
+//sending listener to the serevr
 function sendmouse(xpos, ypos) {
   console.log("sendmouse: " + xpos + " " + ypos);
   var data = {
