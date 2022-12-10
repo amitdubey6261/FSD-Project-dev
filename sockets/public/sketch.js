@@ -17,6 +17,7 @@ function setup() {
 function draw() {
 }
 
+//mouse envent listener
 function mouseDragged() {
   fill(255);
   noStroke();
